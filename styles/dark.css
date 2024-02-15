@@ -1,12 +1,29 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bckgColor: #000028;
+  --accentColor: #ff0070;
+  --titleContentColor: #ff0070;
+  --mainTextContentColor: #f1b2ce;
+  --secTextContentColor: #000028;
+  --buttonColor: #ff0070;
+  --hoverButtonColor: rgba(255, 0, 112, 0.4);
+  --logoColor: #db00ff;
+  --logoShadowColor: #ff0070;
+  --logoDecColor: #ff0070;
+  --bckgImage: url(../images/cover-image-dark.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    --bckgColor: #000028;
+    --accentColor: #ff0070;
+    --titleContentColor: #ff0070;
+    --mainTextContentColor: #f1b2ce;
+    --secTextContentColor: #000028;
+    --buttonColor: #ff0070;
+    --hoverButtonColor: rgba(255, 0, 112, 0.4);
+    --logoColor: #db00ff;
+    --logoShadowColor: #ff0070;
+    --logoDecColor: #ff0070;
+    --bckgImage: url(../images/cover-image-dark.png);
+  }
 }

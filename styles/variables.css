@@ -1,4 +1,19 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --mainFont: "IBM Plex Mono", monospace;
+  --mainfontSize: 18px;
+  --logoFontSize: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --contentPadding: 10px;
+  --contentHeadingSize: 30.5vw;
+
+  --bckgColor: #000028;
+  --accentColor: #ff0070;
+  --titleContentColor: #ff0070;
+  --mainTextContentColor: #f1b2ce;
+  --secTextContentColor: #000028;
+  --buttonColor: #ff0070;
+  --hoverButtonColor: rgba(255, 0, 112, 0.4);
+  --logoColor: #db00ff;
+  --logoShadowColor: #ff0070;
+  --logoDecColor: #ff0070;
+  --bckgImage: url(../images/cover-image-dark.png);
+}
