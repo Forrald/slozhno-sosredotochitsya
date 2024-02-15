@@ -20,8 +20,6 @@
   min-block-size: 668px;
 }
 
-
-
 .decorated-zone::before,
 .decorated-zone::after {
   content: "";
@@ -163,12 +161,6 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-}
-
-.content__block {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 .card__additional {
@@ -322,5 +314,6 @@
   .content__part.content__columns .card__title {
     align-self: center;
   }
-
 }
+
+/* Комментарий дл пуша в Гит */
