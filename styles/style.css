@@ -22,7 +22,7 @@
 
 .decorated-zone::before,
 .decorated-zone::after {
-  content: "";
+  content: '';
   position: absolute;
   inline-size: 25px;
   block-size: 25px;
@@ -85,7 +85,7 @@
 }
 
 .header__rec::after {
-  content: "";
+  content: '';
   display: inline-block;
   background-color: var(--accentColor);
   box-shadow: 0 0 4px 2px var(--accentColor);

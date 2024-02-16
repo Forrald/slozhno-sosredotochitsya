@@ -12,6 +12,10 @@
   --bckgImage: url(../images/cover-image-light.png);
 }
 
+.page.theme_light .header__rec {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   .page {
     --bckgColor: #fff1f7;
@@ -26,9 +30,9 @@
     --logoDecColor: #353430;
     --bckgImage: url(../images/cover-image-light.png);
   }
-}
-.page.theme_light .header__reddot {
-  display: none;
-}
 
+  .header__rec {
+    display: none;
+  }
+}
 
